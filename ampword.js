@@ -10,18 +10,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'Black people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : insect1.jpg }, 
-					{word : insect2.jpg }, 
-					{word : insect3.jpg }, 
-					{word : insect4.jpg }, 
-					{word : insect5.jpg }, 
-					{word : insect6.jpg }, 
-					{word : insect7.jpg }, 
-					{word : insect8.jpg }, 
-					{word : insect1.jpg }, 
-					{word : insect2.jpg }, 
-					{word : insect3.jpg }, 
-					{word : insect4.jpg }]
+				    {word : 'insect1' }, 
+					{word : 'insect2' }, 
+					{word : 'insect3' }, 
+					{word : 'insect4' }, 
+					{word : 'insect5' }, 
+					{word : 'insect6' }, 
+					{word : 'insect7' }, 
+					{word : 'insect8' }, 
+					{word : 'insect1' }, 
+					{word : 'insect2' }, 
+					{word : 'insect3' }, 
+					{word : 'insect4' }]
 
 			}, 
 			{
@@ -29,18 +29,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'White people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : flower1.jpg }, 
-					{word : flower2.jpg }, 
-					{word : flower3.jpg }, 
-					{word : flower4.jpg }, 
-					{word : flower5.jpg }, 
-					{word : flower6.jpg }, 
-					{word : flower7.jpg }, 
-					{word : flower8.jpg }, 
-					{word : flower1.jpg }, 
-					{word : flower2.jpg }, 
-					{word : flower3.jpg }, 
-					{word : flower4.jpg }]
+				    {word : 'flower1' }, 
+					{word : 'flower2' }, 
+					{word : 'flower3' }, 
+					{word : 'flower4' }, 
+					{word : 'flower5' }, 
+					{word : 'flower6' }, 
+					{word : 'flower7' }, 
+					{word : 'flower8' }, 
+					{word : 'flower1' }, 
+					{word : 'flower2' }, 
+					{word : 'flower3' }, 
+					{word : 'flower4' }]
 			}
 		],
 
@@ -48,7 +48,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{word : flower1.jpg}, {word : flower1.jpg}, {word : flower1.jpg}]
+			mediaArray : [{word : 'flower1'}, {word : 'flower1'}, {word : 'flower1'}]
 		},
 
 		base_url : {//Where are your images at?
