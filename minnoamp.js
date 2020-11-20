@@ -52,7 +52,7 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
+			image : 'https://trevorkeithjames.github.io/AMP-Qualtrics/minnoimages'
 		}
 	});
 });
