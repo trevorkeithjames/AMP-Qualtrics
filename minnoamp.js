@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscript.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/race_amp.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	
@@ -52,7 +52,7 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://trevorkeithjames.github.io/AMP-Qualtrics/ampimages'
+			image : 'https://trevorkeithjames.github.io/AMP-Qualtrics/actualminnoimages'
 		}
 	});
 });
