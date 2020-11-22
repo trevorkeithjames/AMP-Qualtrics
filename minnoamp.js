@@ -1,5 +1,5 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/race_amp.js'], function(APIConstructor, ampExtension){
-
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
+                   
 	var API = new APIConstructor();
 	
 	
