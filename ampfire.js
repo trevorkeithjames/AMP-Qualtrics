@@ -6,8 +6,8 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'Black people',  //Will be used in the user feedback 
-				nameForLogging : 'Black people', //Will be used in the logging
+				nameForFeedback : 'nFire',  //Will be used in the user feedback 
+				nameForLogging : 'nFire', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'negfire1.jpg' }, 
@@ -25,8 +25,8 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 
 			}, 
 			{
-				nameForFeedback : 'White people',  //Will be used in the user feedback 
-				nameForLogging : 'White people', //Will be used in the logging
+				nameForFeedback : 'pFire',  //Will be used in the user feedback 
+				nameForLogging : 'pFire', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'posfire1.jpg' }, 
