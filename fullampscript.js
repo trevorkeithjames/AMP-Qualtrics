@@ -126,8 +126,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://trevorkeithjames.github.io/AMP-Qualtrics/ampimages'
 			}, 
 
-			trialsInBlock : [24, 24, 24], //Number of trials in each block 
-			trialsInExample : 3, //Change to 0 if you don't want an example block
+			trialsInBlock : [2, 2, 2], //Number of trials in each block 
+			trialsInExample : 0, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
