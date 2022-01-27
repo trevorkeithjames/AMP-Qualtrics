@@ -180,6 +180,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'Ready? Hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			
+			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			
 			
 
 
