@@ -126,7 +126,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://trevorkeithjames.github.io/AMP-Qualtrics/ampimages'
 			}, 
 
-			trialsInBlock : [24, 24, 0], //Number of trials in each block 
+			trialsInBlock : [16, 16, 16], //Number of trials in each block 
 			trialsInExample : 3, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
@@ -157,7 +157,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			
+			'<color="000000">[Round 1 of nBlocks]</p></div>',
 			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			"See how fast it is? Don't worry if you miss some. " + 
 			'Go with your gut feelings.<br/><br/>' + 
@@ -168,7 +168,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'Ready? Hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			
+			'<color="000000">[Round 2 of nBlocks]</p></div>',
 			middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			'Continue to another round of this task. ' + 
 			'The rules are exactly the same:<br/><br/>' + 
@@ -179,10 +179,18 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'Ready? Hit the <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			
+			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-			
-			
+			'Ready for the FINAL round? ' + 
+			'The rules are exactly the same:<br/><br/>' + 
+			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
+			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
+			'Evaluate each targetCat and not the item that appears before it. ' + 
+			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			'Ready? Hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 
 			//Instructions text for the 7-responses version.
