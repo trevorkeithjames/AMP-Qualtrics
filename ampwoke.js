@@ -18,22 +18,14 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 					{word : 'poison' }, 
 					{word : 'rotten' }, 
 					{word : 'waste' }, 
-					{word : 'shadow' }, 
-					{word : 'square' }, 
-					{word : 'knot' }, 
-					{word : 'glass' }]
-
+					
 			}, 
 			{
 				nameForFeedback : 'posWord',  //Will be used in the user feedback 
 				nameForLogging : 'posWord', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'multiculturalism' }, 
-					{word : 'diversity' }, 
-					{word : 'ethnicities' }, 
-					{word : 'minorities' }, 
-					{word : 'paradise' }, 
+				    	{word : 'paradise' }, 
 					{word : 'music' }, 
 					{word : 'nature' }, 
 					{word : 'treasure' }, 
