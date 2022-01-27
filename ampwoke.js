@@ -48,7 +48,7 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 		{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{image : 'ampchair.jpg'}, {image : 'amplamp.jpg'}, {image : 'ampumbrella.jpg'}]
+			mediaArray : [{word : 'ampchair.jpg'}, {word : 'amplamp.jpg'}, {word : 'ampumbrella.jpg'}]
 		},
 
 		base_url : {//Where are your images at?
