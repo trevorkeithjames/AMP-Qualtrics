@@ -126,7 +126,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://trevorkeithjames.github.io/AMP-Qualtrics/ampimages'
 			}, 
 
-			trialsInBlock : [16, 16, 16], //Number of trials in each block 
+			trialsInBlock : [40, 40, 40], //Number of trials in each block 
 			trialsInExample : 3, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
