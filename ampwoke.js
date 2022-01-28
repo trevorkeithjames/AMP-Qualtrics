@@ -17,7 +17,7 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 					{word : 'maggot' }, 
 					{word : 'poison' }, 
 					{word : 'rotten' }, 
-					{word : 'waste' }, 
+					{word : 'waste' }]
 					
 			}, 
 			{
