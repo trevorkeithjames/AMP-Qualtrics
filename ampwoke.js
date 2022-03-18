@@ -6,8 +6,8 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'negWord',  //Will be used in the user feedback 
-				nameForLogging : 'negWord', //Will be used in the logging
+				nameForFeedback : 'posWord',  //Will be used in the user feedback 
+				nameForLogging : 'posWord', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word : 'multiculturalism' }, 
@@ -21,8 +21,8 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 					
 			}, 
 			{
-				nameForFeedback : 'posWord',  //Will be used in the user feedback 
-				nameForLogging : 'posWord', //Will be used in the logging
+				nameForFeedback : 'neutralWord',  //Will be used in the user feedback 
+				nameForLogging : 'neutralWord', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    	{word : 'shadow' }, 
