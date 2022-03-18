@@ -25,14 +25,14 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 				nameForLogging : 'posWord', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    	{word : 'paradise' }, 
-					{word : 'music' }, 
-					{word : 'nature' }, 
-					{word : 'treasure' }, 
-					{word : 'paradise' }, 
-					{word : 'music' }, 
-					{word : 'nature' }, 
-					{word : 'treasure' }]
+				    	{word : 'shadow' }, 
+					{word : 'square' }, 
+					{word : 'knot' }, 
+					{word : 'glass' }, 
+					{word : 'shadow' }, 
+					{word : 'square' }, 
+					{word : 'knot' }, 
+					{word : 'glass' }]
 			}
 		],
 
