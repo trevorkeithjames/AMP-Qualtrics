@@ -14,10 +14,10 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 					{word : 'diversity' }, 
 					{word : 'ethnicities' }, 
 					{word : 'minorities' }, 
-					{word : 'maggot' }, 
-					{word : 'poison' }, 
-					{word : 'rotten' }, 
-					{word : 'waste' }]
+					{word : 'multiculturalism' }, 
+					{word : 'diversity' }, 
+					{word : 'ethnicities' }, 
+					{word : 'minorities' }]
 					
 			}, 
 			{
@@ -29,10 +29,10 @@ define(['pipAPI', 'https://trevorkeithjames.github.io/AMP-Qualtrics/fullampscrip
 					{word : 'music' }, 
 					{word : 'nature' }, 
 					{word : 'treasure' }, 
-					{word : 'shadow' }, 
-					{word : 'square' }, 
-					{word : 'knot' }, 
-					{word : 'glass' }]
+					{word : 'paradise' }, 
+					{word : 'music' }, 
+					{word : 'nature' }, 
+					{word : 'treasure' }]
 			}
 		],
 
